@@ -172,7 +172,6 @@ echo "${BL}[${R}✓${BL}] ${G}Loading Installing Update in Termux.."
       sleep 2s
    echo "~{${O} Bersiap Untuk Mengupdate Tools ${G}}~"
 cd $HOME
-cd
 rm -rf SpamV2
 git clone https://github.com/Unlimited-Crack-You/SpamV2.git
 SpamV2
@@ -192,6 +191,8 @@ echo "${W} Script By : UCH 2009 "
 sleep 1s
 echo  " "
 echo "${BL}[${R}✓${BL}] ${G}TOKEN BUAT LOGIN :${G} csp0uK2eHZ6fxW8Pqz3Snp "
+echo "${O} Sudah Copy Token nya Sabar Nunggu 8 Detik Akan otomatis ke Tampilan Awal lagi "
+sleep 8
 
 # KELUAR / LOGOUT 
 
@@ -235,8 +236,9 @@ else
 clear
 sleep 2
 echo -ne $q $m" TOD MASUKIN YANG BENER UDAH JELAS DI SURUH KETIK YA MALAH KETIK YANG LAIN 🗿\r"
-sleep 3
+sleep 4
 echo -ne $q $h" YAH UDAH KETIK YANG BENER SUBSCRIBE DULU CHANNEL GWE\r"
+sleep 4
 xdg-open "https://www.youtube.com/@from-system-comunity"
 sleep 3
 clear
