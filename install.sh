@@ -173,7 +173,7 @@ echo "${BL}[${R}✓${BL}] ${G}Loading Installing Update in Termux.."
    echo "~{${O} Bersiap Untuk Mengupdate Tools ${G}}~"
 cd $HOME
 cd
-rm -rf command
+rm -rf SpamV2
 git clone https://github.com/Unlimited-Crack-You/SpamV2.git
 SpamV2
 chmod +x *
@@ -198,9 +198,10 @@ echo "${BL}[${R}✓${BL}] ${G}TOKEN BUAT LOGIN :${G} csp0uK2eHZ6fxW8Pqz3Snp "
 elif [ "$no" = "KL" ]
 then
 echo " "
-echo "${R}┳ ┳ ┏━┓ ┏┳┓ ┏━┓ ┏┳┓ ┏━┓   ┏┳┓ ┏━┓ ┏━┓ ┳   ┏━┓  "
-echo "${R}┃ ┃ ┣━┛  ┃┃ ┣━┫  ┃  ┣┫     ┃  ┃ ┃ ┃ ┃ ┃   ┗━┓  "
-echo "${R}┗━┛ ┻   ━┻┛ ┻ ┻  ┻  ┗━┛    ┻  ┗━┛ ┗━┛ ┻━┛ ┗━┛  "
+echo " "
+echo "${R} ╦    ╔═╗ ╔═╗ ╔═╗ ╦ ╦ ╔╦╗   ╔═╗ ╔═╗ ╦═╗ ╦ ╔═╗ ╔╦╗ "
+echo "${R} ║    ║ ║ ║ ╦ ║ ║ ║ ║  ║    ╚═╗ ║   ╠╦╝ ║ ╠═╝  ║"
+echo "${R} ╩═╝  ╚═╝ ╚═╝ ╚═╝ ╚═╝  ╩    ╚═╝ ╚═╝ ╩╚═ ╩ ╩    ╩ ${O}[ ${W}Logout installasi ${O}]"
 sleep 1s
 echo "${W} Script By : UCH 2009 "
 sleep 1s
