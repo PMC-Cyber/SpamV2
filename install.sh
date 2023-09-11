@@ -180,14 +180,27 @@ chmod +x *
 git pull
 bash install.sh
 
+# TOKEN MASUK
+
+elif [ "$no" = "TK" ]
+then
+echo " "
+echo "${R} ╔╦╗ ╔═╗ ╦╔═ ╔═╗ ╔╗╔ ┈ ╔╗┈ ╦┈╦ ╔═╗ ╔╦╗ ┈ ╦┈┈ ╔═╗ ╔═╗ ╦ ╔╗╔  "
+echo "${R} ┈║┈ ║┈║ ╠╩╗ ║╣┈ ║║║ ┈ ╠╩╗ ║┈║ ╠═╣ ┈║┈ ┈ ║┈┈ ║┈║ ║┈╦ ║ ║║║  "
+echo "${R} ┈╩┈ ╚═╝ ╩┈╩ ╚═╝ ╝╚╝ ┈ ╚═╝ ╚═╝ ╩┈╩ ┈╩┈ ┈ ╩═╝ ╚═╝ ╚═╝ ╩ ╝╚╝ ${O}[ ${W}Logout installasi ${O}]"
+echo "${W} Script By : UCH 2009 "
+sleep 1s
+echo  " "
+echo "${BL}[${R}✓${BL}] ${G}TOKEN BUAT LOGIN :${G} csp0uK2eHZ6fxW8Pqz3Snp "
+
 # KELUAR / LOGOUT 
 
 elif [ "$no" = "KL" ]
 then
 echo " "
-echo "${R} ╦    ╔═╗ ╔═╗ ╔═╗ ╦ ╦ ╔╦╗   ╔═╗ ╔═╗ ╦═╗ ╦ ╔═╗ ╔╦╗ "
-echo "${R} ║    ║ ║ ║ ╦ ║ ║ ║ ║  ║    ╚═╗ ║   ╠╦╝ ║ ╠═╝  ║"
-echo "${R} ╩═╝  ╚═╝ ╚═╝ ╚═╝ ╚═╝  ╩    ╚═╝ ╚═╝ ╩╚═ ╩ ╩    ╩ ${O}[ ${W}Logout installasi ${O}]"
+echo "${R}┳ ┳ ┏━┓ ┏┳┓ ┏━┓ ┏┳┓ ┏━┓   ┏┳┓ ┏━┓ ┏━┓ ┳   ┏━┓  "
+echo "${R}┃ ┃ ┣━┛  ┃┃ ┣━┫  ┃  ┣┫     ┃  ┃ ┃ ┃ ┃ ┃   ┗━┓  "
+echo "${R}┗━┛ ┻   ━┻┛ ┻ ┻  ┻  ┗━┛    ┻  ┗━┛ ┗━┛ ┻━┛ ┗━┛  "
 sleep 1s
 echo "${W} Script By : UCH 2009 "
 sleep 1s
@@ -209,7 +222,7 @@ exit
 else
 clear
 sleep 1
-echo " Tools Spam UC-09 Selamat menggunakan dengan baik  "
+echo " PILIH YANG BENER TOD "
 sleep 1
 clear
 fi
