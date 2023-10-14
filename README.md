@@ -1,24 +1,50 @@
-PERINTAH TERMUX
+# TOOLS SPAMV2 😈
 
-pkg update
-pkg upgrade
-pkg install git
-pkg install python2
-pkg install python
-git clone https://github.com/Unlimited-Crack-You/SpamV2
-cd SpamV2
-bash install.sh
+[Español](https://github.com/Unlimited-Crack-You/SpamV2) | [English](https://github.com/Unlimited-Crack-You/SpamV2)
+
+Tool created by H20
 
 
-PERINTAH LINUX
+## 🛠 Install Linux 🛠
 
-apt-get update
-apt-get upgrade
-apt-get install git
-apt-get install python2
-apt-get install python
-git clone https://github.com/Unlimited-Crack-You/SpamV2
-cd SpamV2
-bash install.sh
+0) Install and use the Tool with **NOT ROOT**
 
+```apt-get update && upgrade -y```
+<br>
+```apt-get install git```
+<br>
+```apt-get install python```
+<br>
+```apt-get install python2```
+<br>
+```rm -rf SpamV2```
+<br>
+```git clone https://github.com/Unlimited-Crack-You/SpamV2```
+<br>
+```cd SpamV2```
+<br>
+```bash install.sh```
+<br>
 
+## 🛠 Install Termux 🛠
+
+0) Install and use the Tool with **NOT ROOT**
+
+```pkg update && upgrade -y```
+<br>
+```pkg install git```
+<br>
+```pkg install python```
+<br>
+```pkg install python2```
+<br>
+```rm -rf SpamV2```
+<br>
+```git clone https://github.com/Unlimited-Crack-You/SpamV2```
+<br>
+```cd SpamV2```
+<br>
+```bash install.sh```
+<br>
+
+Copyright © 2022, UCH-2009 
